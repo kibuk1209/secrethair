@@ -1,0 +1,37 @@
+{
+  "name": "시크릿헤어",
+  "short_name": "시크릿헤어",
+  "description": "시크릿헤어 전문 헤어살롱 온라인 예약 시스템",
+  "start_url": "./secret-hair.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#c9a96e",
+  "orientation": "portrait-primary",
+  "lang": "ko",
+  "categories": ["lifestyle", "beauty"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "예약하기",
+      "short_name": "예약",
+      "description": "시크릿헤어 빠른 예약",
+      "url": "./secret-hair.html#book",
+      "icons": [{ "src": "./icon.svg", "sizes": "any" }]
+    }
+  ],
+  "screenshots": []
+}
